@@ -1,8 +1,11 @@
 
 # 云函数快速部署京东脚本
+<<<<<<< HEAD
 >
 > - 本地安装依赖使用serverless部署，[点这里](tencentscf.md#1-安装-nodejs-环境)
 > - Github Action 部署[点这里](tencentscf.md#github-action-部署)
+=======
+>>>>>>> 385e5c93722467d0582d8ce65af6bc72f888ad80
 
 ## 1. 安装 Node.js 环境
 
@@ -96,6 +99,7 @@ triggers:
 ![测试函数](https://imgbed-bucket-1251971143.cos.ap-guangzhou.myqcloud.com/./1605263963294-test.png)
 
 > 如果需要配置永久秘钥，则可以在[访问秘钥页面](https://console.cloud.tencent.com/cam/capi)获取账号的 TENCENT_SECRET_ID，TENCENT_SECRET_KEY，并配置在代码根目录 .env 文件中。
+<<<<<<< HEAD
 
 
 # Github Action 部署
@@ -119,3 +123,5 @@ triggers:
 
 ![测试函数](https://imgbed-bucket-1251971143.cos.ap-guangzhou.myqcloud.com/./1605263963294-test.png)
 ## 6. 设置触发器[看这里](iCloud.md#5设置触发器)
+=======
+>>>>>>> 385e5c93722467d0582d8ce65af6bc72f888ad80
